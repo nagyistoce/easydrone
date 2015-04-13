@@ -1,0 +1,20 @@
+# Can I just compile and run the code? #
+
+For just building the code or starting the composer, you need nothing but Java and Apache Maven (build management). If you want to make use of the face detection there are some prerequisites launching the application as it depends on Image Processing/Computer Vision libraries.
+
+
+# What do I need exactly? #
+
+## For building the project ##
+
+  * The IDE of your choice
+  * Subversion Client for checking out the code
+  * Apache Maven (http://maven.apache.org/).
+  * In some cases you need a maven plugin for your IDE. Netbeans does not need additional software while Eclipse needs m2eclipse (http://eclipse.org/m2e/)
+
+## Running Face Detection ##
+
+  * OpenCV for Computer Vision support (http://opencv.willowgarage.com/wiki/)
+  * JavaCV as the Java Wrapper around OpenCV (http://code.google.com/p/javacv/)
+
+**Important**: Carefully read and follow the instructions in the installation guides of OpenCV and JavaCV as we experienced that people might easily run into problems.
